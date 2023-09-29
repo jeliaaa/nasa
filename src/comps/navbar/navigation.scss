@@ -1,0 +1,31 @@
+.navbar-brand{
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}
+.offcanvas-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .links {
+        margin-left: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width:auto;
+        gap: 25px;
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+    .profile{
+        width: 15%;
+        a{
+            text-decoration: none;
+            color:white;
+        }
+    }
+}

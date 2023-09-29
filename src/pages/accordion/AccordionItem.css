@@ -1,0 +1,31 @@
+.accordion-item {
+    position: relative;
+    width: fit-content; /* Set your desired width */
+    margin-bottom: 10px;
+  }
+  
+  .accordion-title {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    position: absolute;
+    top: 20%;
+    right: 0px; /* Initially position content off-screen to the right */
+    width: 600px;
+    overflow: hidden;
+    transition: flex 0.3s ease-out;
+    display: none;
+  }
+  
+  .accordion-item.open .accordion-content {
+    right: -650px;
+    display: block !important; /* Slide content in from right to left */
+  }
+  .accordion-content-inner{
+    display: flex;
+    gap: 20px;
+  }
+  

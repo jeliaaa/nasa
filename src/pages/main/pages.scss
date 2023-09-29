@@ -1,0 +1,78 @@
+.container {
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.buttonOfSite {
+    background-color: rgb(29, 177, 169);
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+
+    &:hover {
+        border: 2px solid red;
+        transition: border 1s ease-in;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.head {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .moon {
+        padding: 50px;
+
+        .moon_now {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            button {
+                height: fit-content;
+            }
+        }
+    }
+
+    padding: 30px;
+
+    .news {
+        padding: 50px !important;
+
+        h3 {
+            align-self: flex-start;
+        }
+
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+
+        .news_wrapper {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    }
+}
+.mainImg{
+    background-image: url("https://www.rahtheclub.com/storage/img/page/1608105851eps_4303.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 470px;
+    padding: 50px;
+    p{
+        width: 30%;
+        color: #F0F0F0;
+        font-size: 1.5rem;
+    }
+}

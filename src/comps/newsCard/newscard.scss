@@ -1,0 +1,38 @@
+.news_card {
+    border-radius: 20px;
+    background-color: whitesmoke;
+    width: 80%;
+
+    .commentar {
+        width: 100%;
+    }
+
+    .commentar_btn {
+        background-color: rgb(29, 177, 169);
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .img_wrapper {
+        width: 100%;
+        border-radius: 20px;
+        img {
+            width: 100%;
+            border-radius: 20px;
+        }
+    }
+
+    .content {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .actions {
+        width: 100%;
+        display: flex;
+        gap: 40px;
+        padding: 10px 20px;
+    }
+}

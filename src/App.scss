@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'English';
+  src: url('./img/fonts/Onest-Medium.ttf');
+}
+@font-face {
+  font-family: 'Georgian';
+  src: url('./img/fonts/kolxeti.ttf');
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: 'English';
+  header, footer{
+    height: 10dvh;
+  }
+  .site{
+    min-height: 80dvh;
+    background-color: #23B5D3;
+  }
+}

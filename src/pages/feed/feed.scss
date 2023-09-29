@@ -1,0 +1,75 @@
+.info_card_wrapper {
+    display: inline-block;
+    width: 23%;
+    text-decoration: none;
+
+    .info_card {
+        width: 100%;
+        aspect-ratio: 1/1.5;
+        border: none;
+        border-radius: 0 !important;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        overflow: hidden;
+        transition: box-shadow 0.3s ease-in;
+        background-color: #F1EFEF;
+        border-radius: 8px !important;
+
+        .image_wrapper {
+            width: 100%;
+            height: fit-content;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                transform-origin: center center;
+                transition: transform 0.3s;
+                height: 100%;
+            }
+        }
+
+        .info_card_heading {
+            height: fit-content !important;
+            padding: 15px;
+            z-index: 63;
+
+            hr {
+                width: 20%;
+                background-color: black;
+                border: 2px solid blue;
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+.info_card:hover {
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    hr {
+        border-color: black;
+    }
+
+    .image_wrapper {
+        img {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.FeedSingle {
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    img {
+        width: 100%;
+    }
+
+    div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
