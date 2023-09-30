@@ -7,9 +7,9 @@ import AccordionItem from '../accordion/AccordionItem';
 const MainFeed = () => {
   return (
     <div className='main'>
-      <Container>
+      <div className='imageOfMainHero'>
         <div className='mainImg'><p>გაეცანი სხვის პირად გამოცდილებას და გაიგე მეტი იმის შესახებ, რაც ყველაზე ძალიან გვიყვარს.</p></div>
-      </Container>
+      </div>
       <Container className='moon'>
         <div className='head'>
           <h3>მთვარის კალენდარი</h3>
@@ -30,8 +30,8 @@ const MainFeed = () => {
           <hr />
         </div>
         <div className='news_wrapper'>
-          <NewsCard />
-          <NewsCard />
+          <NewsCard id={1} />
+          <NewsCard id={3} />
         </div>
       </Container>
     </div>

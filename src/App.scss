@@ -2,19 +2,24 @@
   font-family: 'English';
   src: url('./img/fonts/Onest-Medium.ttf');
 }
+
 @font-face {
   font-family: 'Georgian';
-  src: url('./img/fonts/kolxeti.ttf');
+  src: url('./img/fonts/bpg_nino_mtavruli_bold.ttf');
 }
+
 .App {
   display: flex;
   flex-direction: column;
-  font-family: 'English';
-  header, footer{
+  font-family: 'Georgian';
+
+  header,
+  footer {
     height: 10dvh;
   }
-  .site{
+
+  .site {
     min-height: 80dvh;
-    background-color: #23B5D3;
+    background-color: darkslategrey;
   }
 }

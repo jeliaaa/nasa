@@ -2,7 +2,9 @@
     background-color: #fff;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
+.main{
+    width: 100%;
+}
 .buttonOfSite {
     background-color: rgb(29, 177, 169);
     color: #fff;
@@ -41,8 +43,6 @@
         }
     }
 
-    padding: 30px;
-
     .news {
         padding: 50px !important;
 
@@ -60,6 +60,7 @@
             justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
+            margin-bottom: 40px;
         }
     }
 }
@@ -68,11 +69,15 @@
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 470px;
+    height: 100%;
     padding: 50px;
     p{
         width: 30%;
         color: #F0F0F0;
         font-size: 1.5rem;
     }
+}
+.imageOfMainHero{
+    width: 100% !important;
+    height: 90dvh;
 }

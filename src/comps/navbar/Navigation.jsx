@@ -2,13 +2,13 @@ import React from 'react'
 import { Button, Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './navigation.scss'
-
+import LOGO from '../../img/logo.png';
 const Navigation = () => {
     return (
         <header>
-            <Navbar style={{height:'100%'}} expand={'lg'} className="bg-body-tertiary mb-3">
+            <Navbar style={{ height: '100%' }} expand={'lg'} className="bg-body-tertiary mb-3">
                 <Container fluid>
-                    <Navbar.Brand><Link to={'/'}>I-Fish<span>Forum</span></Link></Navbar.Brand>
+                    <Navbar.Brand><Link to={'/'}>I-Fish<span>Forum</span><img src={LOGO} style={{width:50, marginLeft: 10}} /></Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
                     <Navbar.Offcanvas
                         id={`offcanvasNavbar-expand-lg`}

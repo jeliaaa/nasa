@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import './newscard.scss';
 import { Button, Modal } from 'react-bootstrap';
-const NewsCard = () => {
+import BEST from '../../img/best.jpg'
+import BEST2 from '../../img/best2.jpg'
+const NewsCard = ( {id} ) => {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -9,7 +11,7 @@ const NewsCard = () => {
     return (
         <div className='news_card'>
             <div className="img_wrapper">
-                <img src="https://media.istockphoto.com/id/936349626/photo/fisherman-holding-large-fish.jpg?s=2048x2048&w=is&k=20&c=1qns4MajLImXb778lIkZsz_y_NTh0Rp132hVBv-_d8E=" alt="" />
+                {id === 1 ? <img src={BEST} alt="" /> : <img src={BEST2} alt="" /> }
             </div>
             <div className='content'>
                 <h6>25.02.12</h6>
