@@ -9,7 +9,7 @@ const Forum = () => {
                 <div className='forum'>
                     <Accordion  style={{width:'100%'}}>
                         <Accordion.Item style={{width:'100%'}} eventKey="0">
-                            <Accordion.Header> <div className='q_wrap'></div>როგორია კანონმდებლობა თევზაობის მიმართ?</Accordion.Header>
+                            <Accordion.Header> <div className='q_wrap'></div>What should we do to save our oceans?</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque iure nobis inventore voluptatum reprehenderit asperiores
                                 laboriosam earum, ut laborum iusto eius amet veritatis sequi assumenda similique minima quas
@@ -20,7 +20,7 @@ const Forum = () => {
                     </Accordion>
                     <Accordion style={{width:'100%'}}>
                         <Accordion.Item style={{width:'100%'}} eventKey="1">
-                            <Accordion.Header><div className='q_wrap'></div> როგორ მივიღოთ ინფორმაცია ნაკრძელბთან დაკავშირებით?</Accordion.Header>
+                            <Accordion.Header><div className='q_wrap'></div>What is a situation around the world right now?</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur dolor provident, consectetur cupiditate, magnam ea vel quam dignissimos quos
                                 dolore rem at neque tempore modi omnis? Minus deleniti facere asperiores porro dolore itaque sit eligendi deserunt quisquam beatae? Veritatis, expedita.
@@ -30,7 +30,7 @@ const Forum = () => {
                     </Accordion>
                     <Accordion style={{width:'100%'}}>
                         <Accordion.Item style={{width:'100%'}} eventKey="2">
-                            <Accordion.Header><div className='q_wrap'></div> როგორ გავაკეთოთ სალტო?</Accordion.Header>
+                            <Accordion.Header><div className='q_wrap'></div>Which species are endangered around the world?</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -45,7 +45,7 @@ const Forum = () => {
                     </Accordion>
                     <Accordion style={{width:'100%'}}>
                         <Accordion.Item style={{width:'100%'}} eventKey="3">
-                            <Accordion.Header><div className='q_wrap'></div> ვინ არის დირექტორი?</Accordion.Header>
+                            <Accordion.Header><div className='q_wrap'></div>How can I become a member of environemntalist's group?</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -60,7 +60,7 @@ const Forum = () => {
                     </Accordion>
                     <Accordion style={{width:'100%'}}>
                         <Accordion.Item style={{width:'100%'}} eventKey="4">
-                            <Accordion.Header><div className='q_wrap'></div>ვინ იყო შაჰ-აბასის დალაქი?</Accordion.Header>
+                            <Accordion.Header><div className='q_wrap'></div>Ocean currents/winds</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -75,7 +75,7 @@ const Forum = () => {
                     </Accordion>
                     <Accordion style={{width:'100%'}}>
                         <Accordion.Item style={{width:'100%'}} eventKey="5">
-                            <Accordion.Header><div className='q_wrap'></div> როგორ მივიღოთ კონსულტაცია?</Accordion.Header>
+                            <Accordion.Header><div className='q_wrap'></div>What are the most exotic species around the world?</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

@@ -19,7 +19,7 @@ const NewsCard = ( {id} ) => {
             </div>
             <div className="actions">
                 <button className='commentar_btn' onClick={handleShow}>
-                    კომენტარი
+                    Comment
                 </button>
             </div>
             <Modal
@@ -29,16 +29,16 @@ const NewsCard = ( {id} ) => {
                 keyboard={false}
             >
                 <Modal.Header closeButton>
-                    <Modal.Title>კომენტარის დატოვება</Modal.Title>
+                    <Modal.Title>Add Comment</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <div className='commentar'>
                         <textarea style={{ width: '100%' }} cols={30} rows={10} />
                     </div>
                     <Button variant="secondary" onClick={handleClose}>
-                        დახურვა
+                        Close
                     </Button>
-                    <Button variant="primary" onClick={handleClose} style={{ marginLeft: 15 }}>დამატება</Button>
+                    <Button variant="primary" onClick={handleClose} style={{ marginLeft: 15 }}>Add Comment</Button>
                 </Modal.Body>
 
             </Modal>

@@ -13,6 +13,7 @@ import FeedSingle from "./pages/feed/FeedSingle";
 import MoonPage from "./pages/moon/MoonPage";
 import { useEffect } from "react";
 import Crime from "./pages/crime/Crime";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const location = useLocation();

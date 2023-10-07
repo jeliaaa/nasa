@@ -8,7 +8,7 @@ const Navigation = () => {
         <header>
             <Navbar style={{ height: '100%' }} expand={'lg'} className="bg-body-tertiary mb-3">
                 <Container fluid>
-                    <Navbar.Brand><Link to={'/'}>I-Fish<span>Forum</span><img src={LOGO} style={{width:50, marginLeft: 10}} /></Link></Navbar.Brand>
+                    <Navbar.Brand><Link to={'/'}><img src={LOGO} style={{width:150, marginLeft: 10}} /></Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
                     <Navbar.Offcanvas
                         id={`offcanvasNavbar-expand-lg`}
@@ -22,10 +22,9 @@ const Navigation = () => {
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav className="pe-3 links">
-                                <Link to={'/forum'}>ფორუმი</Link>
-                                <Link to={'/feed'}>ინფორმაციული ამბები</Link>
-                                <Link to={'/map'}>რუკა</Link>
-                                <Link to={'/criminals'}>ბრაკონიერები</Link>
+                                <Link to={'/forum'}>Questions</Link>
+                                <Link to={'/feed'}>News Feed</Link>
+                                <Link to={'/map'}>Map of illegal sites</Link>
                             </Nav>
                             <Nav className='profile'>
                                 <Button variant='secondary'><Link to={'/profile'}>პროფილი</Link></Button>
