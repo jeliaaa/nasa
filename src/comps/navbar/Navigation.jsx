@@ -23,7 +23,7 @@ const Navigation = () => {
                         <Offcanvas.Body>
                             <Nav className="pe-3 links">
                                 <Link to={'/forum'}>Questions</Link>
-                                <Link to={'/feed'}>News Feed</Link>
+                                <Link to={'/feed'}>Endangered Species</Link>
                                 <Link to={'/map'}>Map of illegal sites</Link>
                             </Nav>
                             <Nav className='profile'>

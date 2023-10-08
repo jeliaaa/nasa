@@ -14,6 +14,7 @@ import MoonPage from "./pages/moon/MoonPage";
 import { useEffect } from "react";
 import Crime from "./pages/crime/Crime";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Development from "./pages/Development";
 
 function App() {
   const location = useLocation();
@@ -35,6 +36,7 @@ function App() {
           <Route path="/criminals" element={<Crime />} />
           <Route path="/map" element={<Map />} />
           <Route path="/moon" element={<MoonPage />} />
+          <Route path="/profile" element={<Development />} />
         </Routes>
       </div>
       <Footer />

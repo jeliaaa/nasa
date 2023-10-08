@@ -11,7 +11,7 @@ const NewsCard = ( {id} ) => {
     return (
         <div className='news_card'>
             <div className="img_wrapper">
-                {id === 1 ? <img src={BEST} alt="" /> : <img src={BEST2} alt="" /> }
+                {id === 1 ? <img src={'https://www.aquariumofpacific.org/images/made_new/images-uploads-19_Queensland_Grouper_-_Robin_Riggs_600_q85.jpg'} alt="" /> : <img src={'https://www.americanoceans.org/wp-content/uploads/2021/04/atlantic-goliath-grouper.jpg'} alt="" /> }
             </div>
             <div className='content'>
                 <h6>25.02.12</h6>
